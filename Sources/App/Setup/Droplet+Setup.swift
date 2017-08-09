@@ -9,5 +9,6 @@ extension Droplet {
     private func setupRoutes() throws {
     	try self.collection(PostRoutes.self)
     	try self.collection(TestRoutes.self)
+        try self.collection(YoRoutes.self)
     }
 }
