@@ -17,13 +17,13 @@ extension Config {
     /// Configure providers
     private func setupProviders() throws {
         try addProvider(MySQLProvider.Provider.self)
-        try addProvider(RedisProvider.Provider.self)
-        try addProvider(Bugsnag.Provider.self)
+        /*try addProvider(RedisProvider.Provider.self)
+        try addProvider(Bugsnag.Provider.self)*/
     }
 
     /// Configre middlewares
     private func setupMiddlewares() throws {
-        addConfigurable(middleware: Bugsnag.Middleware.init, name: "bugsnag")
+        //addConfigurable(middleware: Bugsnag.Middleware.init, name: "bugsnag")
     }
     
     /// Add all models that should have their
