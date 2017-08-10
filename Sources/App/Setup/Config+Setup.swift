@@ -17,8 +17,8 @@ extension Config {
     /// Configure providers
     private func setupProviders() throws {
         try addProvider(MySQLProvider.Provider.self)
-        /*try addProvider(RedisProvider.Provider.self)
-        try addProvider(Bugsnag.Provider.self)*/
+        try addProvider(RedisProvider.Provider.self)
+        //try addProvider(Bugsnag.Provider.self)
     }
 
     /// Configre middlewares

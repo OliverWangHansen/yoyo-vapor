@@ -1,10 +1,3 @@
-/*{
-    "hostname": "127.0.0.1",
-    "user": "root",
-    "password": "",
-    "database": "yoyo",
-    "encoding": "utf8mb4"
-}*/
 {
     "hostname": "$DATABASE_HOSTNAME",
     "user": "$DATABASE_USER",
