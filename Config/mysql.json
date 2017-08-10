@@ -6,7 +6,7 @@
     "encoding": "utf8mb4"
 }*/
 {
-    "host": "$DATABASE_HOSTNAME",
+    "hostname": "$DATABASE_HOSTNAME",
     "user": "$DATABASE_USER",
     "password": "$DATABASE_PASSWORD",
     "database": "$DATABASE_DB",
